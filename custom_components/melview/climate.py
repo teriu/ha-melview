@@ -62,6 +62,7 @@ class MelViewClimate(MelViewBaseEntity, ClimateEntity):
             HVACMode.HEAT,
             HVACMode.COOL,
             HVACMode.DRY,
+            HVACMode.FAN_ONLY,
         ):
             features |= ClimateEntityFeature.TARGET_TEMPERATURE
         return features
